@@ -8,7 +8,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "Faker": "^0.7.2",
+    "faker": "^4.1.0",
     "body-parser": "^1.15.2",
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
