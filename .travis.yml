@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: wFURZP3FLVaZzmfFlxRJwe8T7zAcbmHP4GBJZrye6io7drmsLuRaKOiXWhfyLqtv3SBYP6i0q/wILmOW3jrPE19bFTB4EN1MIQMK+ndGW2+gcyU81XFgrajYhY4k8dMdbJ5TXrMaz19HCLnXQ+bziJs4j5CwTXQ0RGp2sIW2w8Mc1A/XHRWFWZ/BLnddpDhDKh35RPQrRQzEZItoWXhRHlZNnlY7A1+iWhEcaYXicM0PHHqSrDHXkBUqWiCoo1kLtD2Va19x3cMBWBe2FzTmISH6dJ6xtjvLe7cfcL82eagQpSVQQN3HCJZ5LmNyBfOCQz8YUjL0ObJy7aRgWM1DQpZCzrxQWS4v4up++jtfJ33hm9uSQQ8zNzNB9KrXmbrmYl/RrhRmz7zVz8G/F4QuQhnN2Gg091r50Gr8dY+1050+jQwszMMtqceEeWf7fu/BKOD+8SZV6gs9+1eKfohSL+Ga4xkO9rdyzIRbSrxsI2A1ph4jnxKqVWKmlxevrgHub7reACR2GHma/iXZY6kUULWY8UZkdXY9WrZlQmz2zMzPHoLk2VL+EaMAjLmM0gyrzUw0Sd4yEpExgrysjkVfG/yYGKKySN99OHwHnJz02B8YaRhNIBQ48Ch16EyWMmqhIr/JCpH8qIgmQuvYDi5bptdw2bHTraXdPGa7JUnO8sA=
+  app: glacial-tundra-42511
+  on:
+    repo: alodahl/blog-app-mongoose-challenge-solution
