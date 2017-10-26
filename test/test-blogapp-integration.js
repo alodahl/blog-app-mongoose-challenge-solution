@@ -28,11 +28,11 @@ function seedBlogData() {
 function generateBlogData() {
   return {
     author: {
-      firstName: faker.Name.firstName(),
-      lastName: faker.Name.lastName()
+      firstName: faker.name.firstName(),
+      lastName: faker.name.lastName()
     },
-    title: faker.Lorem.sentence(),
-    content: faker.Lorem.paragraph()
+    title: faker.lorem.sentence(),
+    content: faker.lorem.paragraph()
   }
 }
 
